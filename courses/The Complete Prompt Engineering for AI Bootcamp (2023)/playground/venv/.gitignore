@@ -1,5 +1,7 @@
 etc
 bin
+lib
 dependencies
 include
 share
+pyvenv.cfg

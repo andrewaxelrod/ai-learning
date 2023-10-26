@@ -1,10 +1,20 @@
 ### Instructions:
-1. ./scripts/download-dependencies.sh
-2. pip install -r requirements.txt
+```
+python3 -m venv venv
+```
 
-### RUN basic interview:
-python src/demo/basic_conv.py
+```
+cd venv
+```
 
-### RUN Agent Version of Interview
-(Broken at the moment)
-python src/demo/agent_react_conv.py
+```
+source bin/activate
+```
+
+```
+./scripts/download-dependencies.sh
+```
+
+```
+pip install -r requirements.txt
+```
